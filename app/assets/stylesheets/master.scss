@@ -1,7 +1,16 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Lora');
 
 .clear {
   clear: both;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+}
+
+h2 {
+  font-family: 'Lora', serif;
 }
 
 .circle {
@@ -38,6 +47,8 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'Lora', serif;
+  font-weight: bold;
 }
 
 header {
