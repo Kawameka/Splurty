@@ -1,5 +1,8 @@
 class QuotesController < ApplicationController
   def index
+    # randomize the Quote database/model, then pull the first quote
+    # using @ with a variable turns it into an instance variable
+    # using @ is necessary when you want to load a variable into the "views" files
     @quote = Quote.order("RANDOM()").first
   end
 
